@@ -96,9 +96,9 @@ input, select, textarea {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
-
+	/* opisy np. pod about me */
 	body, input, select, textarea {
-		color: #8D918D;
+		color: #C0C0C0;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -122,7 +122,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #787878;
+		color: #C0C0C0;
 		font-weight: 400;
 	}
 
@@ -133,9 +133,9 @@ input, select, textarea {
 	p {
 		margin: 0 0 2em 0;
 	}
-
+	/* nagłówki */
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #C0C0C0;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -1801,7 +1801,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #787878;
+		color: #C0C0C0;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 400;
@@ -1855,7 +1855,7 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #787878;
+			color: #C0C0C0;
 			background: #fff;
 		}
 
@@ -1895,7 +1895,7 @@ input, select, textarea {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #8D918D;
+			color: #C0C0C0;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -1938,8 +1938,8 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #787878;
-			border-color: #787878;
+			background: #C0C0C0;
+			border-color: #C0C0C0;
 			color: #fff;
 			content: '\f00c';
 		}
@@ -2231,7 +2231,7 @@ input, select, textarea {
 			}
 
 			ul.labeled-icons li h3 {
-				color: #8D918D;
+				color: #C0C0C0;
 				left: 0;
 				position: absolute;
 				text-align: center;
@@ -2388,7 +2388,7 @@ input, select, textarea {
 		}
 
 		table th {
-			color: #787878;
+			color: #C0C0C0;
 			font-size: 0.9em;
 			font-weight: 400;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -2446,7 +2446,7 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 0.35em;
 		border: solid 3px #efefef;
-		color: #787878 !important;
+		color: #C0C0C0 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2689,7 +2689,7 @@ input, select, textarea {
 	}
 
 		#main > section {
-			border-top: solid 2px #8D918D;
+			border-top: solid 2px #C0C0C0;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
