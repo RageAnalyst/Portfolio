@@ -2445,10 +2445,11 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
+		border: solid 3px #C0C0C0;
 		color: #C0C0C0 !important;
 		cursor: pointer;
 		display: inline-block;
+		font-size: 0.9em;
 		font-weight: 400;
 		height: 3.15em;
 		height: calc(2.75em + 6px);
