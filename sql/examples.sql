@@ -1,7 +1,3 @@
-podzielić eksplorację na kategorie: operacje na tekście, operacje na liczbach itd., funkcje analityczne
-
--- SIMPLE WORKS ON DATA
-
 -- alphabetical display of the list of employees
 
 SELECT id_employee ID, INITCAP(name)||' '|| INITCAP(surname) EMPLOYEES, SUBSTR(UPPER(name),1,1) 
@@ -112,14 +108,12 @@ ORDER BY 2;
 -- average salary in individual profession
 
 -- way 1
-
 SELECT profession, sex, ROUND(AVG(salary), 2) AS "Average Salary"
 FROM employees
 GROUP BY ROLLUP(profession, sex)
 ORDER BY 1, 2;
 
 -- way 2
-
 SELECT profession, sex, ROUND(AVG(salary), 2) AS "Average Salary"
 FROM employees
 GROUP BY CUBE (profession, sex)
