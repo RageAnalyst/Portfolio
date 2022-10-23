@@ -1,2 +1,2 @@
 # portfolio
-My firt GitHub Pages Repository for portfolio
+My Data Analyst Portfolio on GitHub Pages.
